@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01286F982CDFD72021F0D7976B46BCCD /* HUAppLanguageHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 503BEED53EE0160DA07C721F572E30A2 /* HUAppLanguageHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A5A4193D253326126F3343570AEB3EA /* WYXLanguageUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3BD0919FE06CE61EE7DEB6FE744A395 /* WYXLanguageUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3E6FD5AA23FE7ADEE0E273583C1F41 /* Pods-WYXLanguageUtil_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 659A2ADA8D1D9243A4FBF5550ADC23C2 /* Pods-WYXLanguageUtil_Example-dummy.m */; };
+		1B4C22D83BFE0CCA6FCEAABD5EE43ED6 /* HULanguageUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA1C1299FF41D8EABB73E0A306C3DDD /* HULanguageUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D9B6FC39C0A00279B0214FDAFF7A444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		369112756816A3822E7C7D8E7D24E692 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		53B3C566AF4048F257D99D42AF309DBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		648CC6DBFB8CF1CFE5CA67189D12DDEA /* Pods-WYXLanguageUtil_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 50DCC3F945E64D386C2440D0E81B8DBE /* Pods-WYXLanguageUtil_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E8011787570E67F856D87A620106B0C /* WYXLanguageUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CC45F58A3FB7C3F496D522C74C228F /* WYXLanguageUtil-dummy.m */; };
+		7ED550304685ECA8EC6BE76E5B5224E7 /* HULanguageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D4117C16638D457A1A6A188026F96C6 /* HULanguageUtils.m */; };
+		A0C4798376DCD16D4AC0C17E7443037D /* Pods-WYXLanguageUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1094D5450FE623CCD51F126CA961753 /* Pods-WYXLanguageUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2F6C81D94396B82E3F73E050306237F /* Pods-WYXLanguageUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D5A4CE5EF3A1519FEAFEA13DFA60007 /* Pods-WYXLanguageUtil_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBD14EFE89BDAEFAB0510005E3814EAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A2F3220C78F5A1065EBD09D33E83493;
+			remoteInfo = WYXLanguageUtil;
+		};
+		F36652CF238EBCAD843037A5900F4524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 939CDD2D7428C28438DACC4FE430CECB;
+			remoteInfo = "Pods-WYXLanguageUtil_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C031CAF2886678D3728BEAE637B554 /* WYXLanguageUtil-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WYXLanguageUtil-Info.plist"; sourceTree = "<group>"; };
+		07226165AEF11A84EF065996B740BA25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		11A3033CAD2CF8693AFB19B40B46A43A /* WYXLanguageUtil.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYXLanguageUtil.release.xcconfig; sourceTree = "<group>"; };
+		2EA1C1299FF41D8EABB73E0A306C3DDD /* HULanguageUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HULanguageUtils.h; path = WYXLanguageUtil/Classes/HULanguageUtils.h; sourceTree = "<group>"; };
+		3586DFE142A9E321694D23A3F59EADE7 /* Pods-WYXLanguageUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYXLanguageUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		3695FB21AC448897B39FC7627BDA8081 /* WYXLanguageUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WYXLanguageUtil.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		4B88F1FE50035DC70145F47D77DF4C0B /* WYXLanguageUtil */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WYXLanguageUtil; path = WYXLanguageUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D5A4CE5EF3A1519FEAFEA13DFA60007 /* Pods-WYXLanguageUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYXLanguageUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		503BEED53EE0160DA07C721F572E30A2 /* HUAppLanguageHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HUAppLanguageHeader.h; path = WYXLanguageUtil/Classes/HUAppLanguageHeader.h; sourceTree = "<group>"; };
+		50DCC3F945E64D386C2440D0E81B8DBE /* Pods-WYXLanguageUtil_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYXLanguageUtil_Example-umbrella.h"; sourceTree = "<group>"; };
+		574CC641043FE5E06D6FF8CE51A74B9F /* Pods-WYXLanguageUtil_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WYXLanguageUtil_Example"; path = Pods_WYXLanguageUtil_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		656B8E5FDE5A7DA19AEF9F082D3B7156 /* Pods-WYXLanguageUtil_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYXLanguageUtil_Example-Info.plist"; sourceTree = "<group>"; };
+		659A2ADA8D1D9243A4FBF5550ADC23C2 /* Pods-WYXLanguageUtil_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WYXLanguageUtil_Example-dummy.m"; sourceTree = "<group>"; };
+		6AA894E8C79815A5B3DF7708BB5C5FA8 /* Pods-WYXLanguageUtil_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYXLanguageUtil_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6CFCCE495F83F5277784555E716A78C9 /* Pods-WYXLanguageUtil_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYXLanguageUtil_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		72CC45F58A3FB7C3F496D522C74C228F /* WYXLanguageUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WYXLanguageUtil-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7F96EF4B70D59E583671041E2EB900A7 /* Pods-WYXLanguageUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYXLanguageUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		810AA0595D2C5EA59D0310DA2237C90A /* Pods-WYXLanguageUtil_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WYXLanguageUtil_Example-frameworks.sh"; sourceTree = "<group>"; };
+		84340DDFF04C62058912338038FDC9C5 /* Pods-WYXLanguageUtil_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WYXLanguageUtil_Example.modulemap"; sourceTree = "<group>"; };
+		8677BFF5CC151E08A9D4190C15A4895D /* Pods-WYXLanguageUtil_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYXLanguageUtil_Example.release.xcconfig"; sourceTree = "<group>"; };
+		88FFEED20E29D44F9C4D606C1A88761A /* Pods-WYXLanguageUtil_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYXLanguageUtil_Tests-Info.plist"; sourceTree = "<group>"; };
+		9CFFA7463E77EA72E8F001EA4AB7A58A /* WYXLanguageUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYXLanguageUtil-prefix.pch"; sourceTree = "<group>"; };
+		9D4117C16638D457A1A6A188026F96C6 /* HULanguageUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HULanguageUtils.m; path = WYXLanguageUtil/Classes/HULanguageUtils.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8652F5A8E32F26AFAD5D4F789654EAA /* WYXLanguageUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WYXLanguageUtil.modulemap; sourceTree = "<group>"; };
+		B86F31D2CA478EAF2F64F68346966EF7 /* Pods-WYXLanguageUtil_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYXLanguageUtil_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC3D162AF6B2B80FA7528AC29123D663 /* Pods-WYXLanguageUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WYXLanguageUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BD6136EF45E46791397E8AF0C56DA510 /* WYXLanguageUtil.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WYXLanguageUtil.debug.xcconfig; sourceTree = "<group>"; };
+		C1094D5450FE623CCD51F126CA961753 /* Pods-WYXLanguageUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WYXLanguageUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D8167F7D0375D7AA7DCDF598E2E51793 /* Pods-WYXLanguageUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WYXLanguageUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DEBBF825AC9AFA1DD7AEEF42C01A9B7D /* Pods-WYXLanguageUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WYXLanguageUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E3BD0919FE06CE61EE7DEB6FE744A395 /* WYXLanguageUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WYXLanguageUtil-umbrella.h"; sourceTree = "<group>"; };
+		ECB244D09E12CACBF2E9ABACE92E3DEB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FB606405EE000226F962A5E5C129E669 /* Pods-WYXLanguageUtil_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WYXLanguageUtil_Tests"; path = Pods_WYXLanguageUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02764ACB0F33E3A0798EB1340E7268D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D9B6FC39C0A00279B0214FDAFF7A444 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845738107024FD3F0E9F9B04A830B35E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53B3C566AF4048F257D99D42AF309DBB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D85F7C11ABE9BF947FD21723C3AF5406 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				369112756816A3822E7C7D8E7D24E692 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AC222208B84CB3BBE811ACE9DD952FE /* WYXLanguageUtil */ = {
+			isa = PBXGroup;
+			children = (
+				503BEED53EE0160DA07C721F572E30A2 /* HUAppLanguageHeader.h */,
+				2EA1C1299FF41D8EABB73E0A306C3DDD /* HULanguageUtils.h */,
+				9D4117C16638D457A1A6A188026F96C6 /* HULanguageUtils.m */,
+				D0932C116E5F1DDE9EA1E80573E79097 /* Pod */,
+				546264A86CB80167C4EFE5EA135BEEDD /* Support Files */,
+			);
+			name = WYXLanguageUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		500886E8CB0E61E07036EB0575A33730 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				574CC641043FE5E06D6FF8CE51A74B9F /* Pods-WYXLanguageUtil_Example */,
+				FB606405EE000226F962A5E5C129E669 /* Pods-WYXLanguageUtil_Tests */,
+				4B88F1FE50035DC70145F47D77DF4C0B /* WYXLanguageUtil */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546264A86CB80167C4EFE5EA135BEEDD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A8652F5A8E32F26AFAD5D4F789654EAA /* WYXLanguageUtil.modulemap */,
+				72CC45F58A3FB7C3F496D522C74C228F /* WYXLanguageUtil-dummy.m */,
+				06C031CAF2886678D3728BEAE637B554 /* WYXLanguageUtil-Info.plist */,
+				9CFFA7463E77EA72E8F001EA4AB7A58A /* WYXLanguageUtil-prefix.pch */,
+				E3BD0919FE06CE61EE7DEB6FE744A395 /* WYXLanguageUtil-umbrella.h */,
+				BD6136EF45E46791397E8AF0C56DA510 /* WYXLanguageUtil.debug.xcconfig */,
+				11A3033CAD2CF8693AFB19B40B46A43A /* WYXLanguageUtil.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WYXLanguageUtil";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B3C785241DC0DDB68D26E50AC07ECE1F /* Pods-WYXLanguageUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3586DFE142A9E321694D23A3F59EADE7 /* Pods-WYXLanguageUtil_Tests.modulemap */,
+				DEBBF825AC9AFA1DD7AEEF42C01A9B7D /* Pods-WYXLanguageUtil_Tests-acknowledgements.markdown */,
+				D8167F7D0375D7AA7DCDF598E2E51793 /* Pods-WYXLanguageUtil_Tests-acknowledgements.plist */,
+				4D5A4CE5EF3A1519FEAFEA13DFA60007 /* Pods-WYXLanguageUtil_Tests-dummy.m */,
+				88FFEED20E29D44F9C4D606C1A88761A /* Pods-WYXLanguageUtil_Tests-Info.plist */,
+				C1094D5450FE623CCD51F126CA961753 /* Pods-WYXLanguageUtil_Tests-umbrella.h */,
+				7F96EF4B70D59E583671041E2EB900A7 /* Pods-WYXLanguageUtil_Tests.debug.xcconfig */,
+				BC3D162AF6B2B80FA7528AC29123D663 /* Pods-WYXLanguageUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-WYXLanguageUtil_Tests";
+			path = "Target Support Files/Pods-WYXLanguageUtil_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DA58321736463F1A9453F2435F47748C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				500886E8CB0E61E07036EB0575A33730 /* Products */,
+				D27E672FB8E932A94EE08C5AA3C00269 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0932C116E5F1DDE9EA1E80573E79097 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				07226165AEF11A84EF065996B740BA25 /* LICENSE */,
+				ECB244D09E12CACBF2E9ABACE92E3DEB /* README.md */,
+				3695FB21AC448897B39FC7627BDA8081 /* WYXLanguageUtil.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D27E672FB8E932A94EE08C5AA3C00269 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E68162F8A6015E4BB29786AE283050F2 /* Pods-WYXLanguageUtil_Example */,
+				B3C785241DC0DDB68D26E50AC07ECE1F /* Pods-WYXLanguageUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DA58321736463F1A9453F2435F47748C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AC222208B84CB3BBE811ACE9DD952FE /* WYXLanguageUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E68162F8A6015E4BB29786AE283050F2 /* Pods-WYXLanguageUtil_Example */ = {
+			isa = PBXGroup;
+			children = (
+				84340DDFF04C62058912338038FDC9C5 /* Pods-WYXLanguageUtil_Example.modulemap */,
+				6AA894E8C79815A5B3DF7708BB5C5FA8 /* Pods-WYXLanguageUtil_Example-acknowledgements.markdown */,
+				6CFCCE495F83F5277784555E716A78C9 /* Pods-WYXLanguageUtil_Example-acknowledgements.plist */,
+				659A2ADA8D1D9243A4FBF5550ADC23C2 /* Pods-WYXLanguageUtil_Example-dummy.m */,
+				810AA0595D2C5EA59D0310DA2237C90A /* Pods-WYXLanguageUtil_Example-frameworks.sh */,
+				656B8E5FDE5A7DA19AEF9F082D3B7156 /* Pods-WYXLanguageUtil_Example-Info.plist */,
+				50DCC3F945E64D386C2440D0E81B8DBE /* Pods-WYXLanguageUtil_Example-umbrella.h */,
+				B86F31D2CA478EAF2F64F68346966EF7 /* Pods-WYXLanguageUtil_Example.debug.xcconfig */,
+				8677BFF5CC151E08A9D4190C15A4895D /* Pods-WYXLanguageUtil_Example.release.xcconfig */,
+			);
+			name = "Pods-WYXLanguageUtil_Example";
+			path = "Target Support Files/Pods-WYXLanguageUtil_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		534BD254F4ADEBD5E6D1AC91A40F0674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648CC6DBFB8CF1CFE5CA67189D12DDEA /* Pods-WYXLanguageUtil_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A6D0050DDE0F6B6C5FBFCFDA82C086E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01286F982CDFD72021F0D7976B46BCCD /* HUAppLanguageHeader.h in Headers */,
+				1B4C22D83BFE0CCA6FCEAABD5EE43ED6 /* HULanguageUtils.h in Headers */,
+				0A5A4193D253326126F3343570AEB3EA /* WYXLanguageUtil-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDCDB977AC1822B6CB82E8F8C651B682 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0C4798376DCD16D4AC0C17E7443037D /* Pods-WYXLanguageUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A2F3220C78F5A1065EBD09D33E83493 /* WYXLanguageUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB87D121DB12F88731A00942CF74805B /* Build configuration list for PBXNativeTarget "WYXLanguageUtil" */;
+			buildPhases = (
+				5A6D0050DDE0F6B6C5FBFCFDA82C086E /* Headers */,
+				2D7AE749A1BA5CF5AD4AFE907DB042CA /* Sources */,
+				D85F7C11ABE9BF947FD21723C3AF5406 /* Frameworks */,
+				5F390503A3EC269E36CB5F774904E0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYXLanguageUtil;
+			productName = WYXLanguageUtil;
+			productReference = 4B88F1FE50035DC70145F47D77DF4C0B /* WYXLanguageUtil */;
+			productType = "com.apple.product-type.framework";
+		};
+		939CDD2D7428C28438DACC4FE430CECB /* Pods-WYXLanguageUtil_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061BB204A5667C45E93B6BAD78657762 /* Build configuration list for PBXNativeTarget "Pods-WYXLanguageUtil_Example" */;
+			buildPhases = (
+				534BD254F4ADEBD5E6D1AC91A40F0674 /* Headers */,
+				DE1F8A5FB490C701F68867B043151D75 /* Sources */,
+				845738107024FD3F0E9F9B04A830B35E /* Frameworks */,
+				3FDB27D52A15FFB100ECAD0D213114B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925AF8134EE3F51B73E2BAFC66368D38 /* PBXTargetDependency */,
+			);
+			name = "Pods-WYXLanguageUtil_Example";
+			productName = Pods_WYXLanguageUtil_Example;
+			productReference = 574CC641043FE5E06D6FF8CE51A74B9F /* Pods-WYXLanguageUtil_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		D89C3D4B6A402E6CFC6C69EB061DDE10 /* Pods-WYXLanguageUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F1C2EC54B09CBC5D46F8A1AADEB562 /* Build configuration list for PBXNativeTarget "Pods-WYXLanguageUtil_Tests" */;
+			buildPhases = (
+				EDCDB977AC1822B6CB82E8F8C651B682 /* Headers */,
+				8BA63688EAC496051556313220623D08 /* Sources */,
+				02764ACB0F33E3A0798EB1340E7268D6 /* Frameworks */,
+				ADC2F87AAE120B6F7C55B267DBDEEB07 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A398EFEA45D16418F3FDCEB29B82337 /* PBXTargetDependency */,
+			);
+			name = "Pods-WYXLanguageUtil_Tests";
+			productName = Pods_WYXLanguageUtil_Tests;
+			productReference = FB606405EE000226F962A5E5C129E669 /* Pods-WYXLanguageUtil_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 500886E8CB0E61E07036EB0575A33730 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				939CDD2D7428C28438DACC4FE430CECB /* Pods-WYXLanguageUtil_Example */,
+				D89C3D4B6A402E6CFC6C69EB061DDE10 /* Pods-WYXLanguageUtil_Tests */,
+				1A2F3220C78F5A1065EBD09D33E83493 /* WYXLanguageUtil */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3FDB27D52A15FFB100ECAD0D213114B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F390503A3EC269E36CB5F774904E0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADC2F87AAE120B6F7C55B267DBDEEB07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D7AE749A1BA5CF5AD4AFE907DB042CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7ED550304685ECA8EC6BE76E5B5224E7 /* HULanguageUtils.m in Sources */,
+				7E8011787570E67F856D87A620106B0C /* WYXLanguageUtil-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BA63688EAC496051556313220623D08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2F6C81D94396B82E3F73E050306237F /* Pods-WYXLanguageUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE1F8A5FB490C701F68867B043151D75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F3E6FD5AA23FE7ADEE0E273583C1F41 /* Pods-WYXLanguageUtil_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925AF8134EE3F51B73E2BAFC66368D38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WYXLanguageUtil;
+			target = 1A2F3220C78F5A1065EBD09D33E83493 /* WYXLanguageUtil */;
+			targetProxy = CBD14EFE89BDAEFAB0510005E3814EAB /* PBXContainerItemProxy */;
+		};
+		9A398EFEA45D16418F3FDCEB29B82337 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WYXLanguageUtil_Example";
+			target = 939CDD2D7428C28438DACC4FE430CECB /* Pods-WYXLanguageUtil_Example */;
+			targetProxy = F36652CF238EBCAD843037A5900F4524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CDE9ADDD3BCD6BC9AF3F5F6F7A8C06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8677BFF5CC151E08A9D4190C15A4895D /* Pods-WYXLanguageUtil_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYXLanguageUtil_Example/Pods-WYXLanguageUtil_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYXLanguageUtil_Example/Pods-WYXLanguageUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1A2195AFC44EC9886994206C19F31DFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD6136EF45E46791397E8AF0C56DA510 /* WYXLanguageUtil.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYXLanguageUtil/WYXLanguageUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYXLanguageUtil/WYXLanguageUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYXLanguageUtil/WYXLanguageUtil.modulemap";
+				PRODUCT_MODULE_NAME = WYXLanguageUtil;
+				PRODUCT_NAME = WYXLanguageUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		69A999A7207A7D08627D0AE19E8933A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B86F31D2CA478EAF2F64F68346966EF7 /* Pods-WYXLanguageUtil_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYXLanguageUtil_Example/Pods-WYXLanguageUtil_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYXLanguageUtil_Example/Pods-WYXLanguageUtil_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B6A37E19C6C716E410F1EC8F42B90AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3D162AF6B2B80FA7528AC29123D663 /* Pods-WYXLanguageUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYXLanguageUtil_Tests/Pods-WYXLanguageUtil_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYXLanguageUtil_Tests/Pods-WYXLanguageUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7CFFFFF6AC208A6078464F9396B971C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11A3033CAD2CF8693AFB19B40B46A43A /* WYXLanguageUtil.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WYXLanguageUtil/WYXLanguageUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WYXLanguageUtil/WYXLanguageUtil-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WYXLanguageUtil/WYXLanguageUtil.modulemap";
+				PRODUCT_MODULE_NAME = WYXLanguageUtil;
+				PRODUCT_NAME = WYXLanguageUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D8F223C35C3FAD36D253A2E7156F4F54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F96EF4B70D59E583671041E2EB900A7 /* Pods-WYXLanguageUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WYXLanguageUtil_Tests/Pods-WYXLanguageUtil_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WYXLanguageUtil_Tests/Pods-WYXLanguageUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061BB204A5667C45E93B6BAD78657762 /* Build configuration list for PBXNativeTarget "Pods-WYXLanguageUtil_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69A999A7207A7D08627D0AE19E8933A1 /* Debug */,
+				03CDE9ADDD3BCD6BC9AF3F5F6F7A8C06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F1C2EC54B09CBC5D46F8A1AADEB562 /* Build configuration list for PBXNativeTarget "Pods-WYXLanguageUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8F223C35C3FAD36D253A2E7156F4F54 /* Debug */,
+				B6A37E19C6C716E410F1EC8F42B90AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB87D121DB12F88731A00942CF74805B /* Build configuration list for PBXNativeTarget "WYXLanguageUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A2195AFC44EC9886994206C19F31DFD /* Debug */,
+				B7CFFFFF6AC208A6078464F9396B971C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

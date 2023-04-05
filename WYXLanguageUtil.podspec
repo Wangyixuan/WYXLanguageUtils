@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WYXLanguageUtil'
-  s.version          = '0.1.0'
+  s.version          = '0.1'
   s.summary          = 'A short description of WYXLanguageUtil.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/tttttt9676@gmail.com/WYXLanguageUtil'
+  s.homepage         = 'https://github.com/Wangyixuan/WYXLanguageUtils.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tttttt9676@gmail.com' => 'tttttt9676@gmail.com' }
-  s.source           = { :git => 'https://github.com/tttttt9676@gmail.com/WYXLanguageUtil.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Wangyixuan/WYXLanguageUtils.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
