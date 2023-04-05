@@ -1,5 +1,5 @@
 PODS:
-  - WYXLanguageUtil (0.1.0)
+  - WYXLanguageUtil (0.2)
 
 DEPENDENCIES:
   - WYXLanguageUtil (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WYXLanguageUtil: 3cf0e05a00a8072cefa64f8e5233375a7c7f7692
+  WYXLanguageUtil: cd92402adf8f284afacb3066a3acc2d0f842d8f3
 
-PODFILE CHECKSUM: 2794bde9ecd68b6c6d78bf0754b982a870946712
+PODFILE CHECKSUM: bc78e6b6bf108c3fd9b65c8875823d6780598d5f
 
 COCOAPODS: 1.11.3
